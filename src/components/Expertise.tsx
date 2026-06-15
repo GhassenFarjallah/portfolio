@@ -7,38 +7,44 @@ import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
     "React",
+    "Angular",
     "TypeScript",
     "JavaScript",
     "HTML5",
     "CSS3",
-    "SASS",
-    "Flask",
+    "Golang",
     "Python",
+    "Django",
+    "SASS",
     "SQL",
     "PostgreSQL",
-    "Postman"
+    "MongoDB",
+    "Elasticsearch",
+    "Playwright",
+    "Postman",
+    "Bruno API"
 ];
 
 const labelsSecond = [
     "Git",
     "GitHub Actions",
+    "Jenkins",
     "Docker",
+    "Kubernetes",
+    "ArgoCD",
     "AWS",
     "Azure",
     "Linux",
-    "Snowflake",
     "Pandas",
     "Selenium",
 ];
 
 const labelsThird = [
     "OpenAI",
-    "Groq",
+    "github Copilot",
     "LangChain",
-    "Qdrant",
+    "Claude",
     "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
 ];
 
 function Expertise() {

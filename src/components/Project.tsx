@@ -5,10 +5,11 @@ import mock03 from '../assets/images/mock03.png';
 import mock04 from '../assets/images/mock04.png';
 import mock05 from '../assets/images/mock05.png';
 import mock06 from '../assets/images/mock06.png';
-import mock07 from '../assets/images/mock07.png';
-import mock08 from '../assets/images/mock08.png';
-import mock09 from '../assets/images/mock09.png';
-import mock10 from '../assets/images/mock10.png';
+import mock11 from '../assets/images/ASR_Summarization_image.png';
+import mock12 from '../assets/images/mock12.png';
+import mock13 from '../assets/images/mock13.png';
+import mock14 from '../assets/images/mock14.webp';
+import mock15 from '../assets/images/mock15.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -17,55 +18,30 @@ function Project() {
         <h1>Personal Projects</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Filmate AI</h2></a>
-                <p>Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.</p>
+                <a href="https://github.com/GhassenFarjallah/AutomaticSpeechRecognition-ASR-_Summarization_Youtube_video/tree/main" target="_blank" rel="noreferrer"><img src={mock11} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/GhassenFarjallah/AutomaticSpeechRecognition-ASR-_Summarization_Youtube_video/tree/main" target="_blank" rel="noreferrer"><h2>Summarization System for Youtube Videos</h2></a>
+                <p>I made an automatic speech recognition with Whisper hugging face model for a youtube video to get the text from the speech .Then we tried 3 different models for the summarization part ,2 models Unlimiformer and PRIMERA which are specific for text generation( supporting more than 1024 tokens ) and the other one ,supporting less than 1024 tokens, distilbart specific for this task.</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
+                <a href="https://github.com/GhassenFarjallah/CHAT_PDF_for_EDA_deep_learning_papers_books" target="_blank" rel="noreferrer"><img src={mock12} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/GhassenFarjallah/CHAT_PDF_for_EDA_deep_learning_papers_books" target="_blank" rel="noreferrer"><h2>CHAT_PDF for EDA deep learning papers books</h2></a>
+                <p>A chatbot that can answer questions about deep learning papers and books, using PDF parsing and natural language processing.</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
-                <p>Developed and released a 2D shooting game with C# and Unity. This project is hosted on the Itch.io public marketplace.</p>
+                <a href="https://github.com/GhassenFarjallah/Classification_Summarization_LLM_Models" target="_blank" rel="noreferrer"><img src={mock13} className="zoom" alt="thumbnail" width="80%"/></a>
+                <a href="https://github.com/GhassenFarjallah/Classification_Summarization_LLM_Models" target="_blank" rel="noreferrer"><h2>Classification and Summarization on Enron Dataset</h2></a>
+                <p>This project aims to evaluate the performance of small-scale Large Language Models (LLMs) with fewer than 4 billion parameters on tasks derived from the Enron Email Fraud Dataset. We experimented with four models — H2O, Minitron, StableLM Zephyr, and Phi-3 — using different prompt engineering strategies to perform two main tasks: email summarization and email classification (Spam vs. Ham).</p>
             </div>
             <div className="project">
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
-                <p>This is an online educational platform that provides high-quality, data science-focused learning resources in the Japanese language. I created the entire platform from scratch using Ruby on Rails.</p>
+                <a href="https://github.com/GhassenFarjallah/Langchain_chatbot_with_Mistral_Open_SourceLLM_model/tree/main" target="_blank" rel="noreferrer"><img src={mock14} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/GhassenFarjallah/Langchain_chatbot_with_Mistral_Open_SourceLLM_model/tree/main" target="_blank" rel="noreferrer"><h2>OpenAI & Mistral Chatbot Integration with LangChain</h2></a>
+                <p>Developed a conversational AI chatbot using LangChain with integration of both proprietary (OpenAI) and open-source (Mistral) language models. The project leverages LangSmith for monitoring and tracing interactions, and LangChain Community tools for open-source model integration and orchestration.</p>
             </div>
             <div className="project">
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>WeManage: Real Estate Asset Management</h2></a>
-                <p>This mobile application allows realtors in Japan to securely manage their property information and view future income predictions. This app is built with Ruby on Rails and JavaScript.</p>
-            </div>
-            <div className="project">
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><h2>COVID-19 Case Management</h2></a>
-                <p>Built official charts for COVID/vaccination tracking for an educational institution using JavaScript and the Google Sheets API v4. The dashboard served the university's leadership in their decision-making processes.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><h2>Multiple Regression Property Analysis</h2></a>
-                <p>Analyzed the real estate market in Japan and predicted property prices by implementing statistical methods such as OLS and multi-regression analysis. This project leveraged Python and various libraries such as Pandas, NumPy, Matplotlib, and Scikit-Learn.</p>
-            </div>
-            <div className="project">
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><h2>Programs of Study</h2></a>
-                <p>Designed and developed a custom component for a CMS-based platform (e.g., 'Brightspot') using Java, Handlebars, and LESS. University students can find their majors of interest through this module.</p>
-            </div>
-            <div className="project">
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><h2>Transfer Evaluation Matrix</h2></a>
-                <p>Created an interactive CSV table generator with Java, Handlebars, and LESS. This project helps transfer students to quickly identify eligible credits.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><h2>Submeowrine</h2></a>
-                <p>Developed and released an Android mobile application using Java and Android Studio that runs a 2D shooting game.</p>
-            </div>
+                <a href="https://github.com/GhassenFarjallah/Safe_rl_adaptation_SMBPO_Frozen_Lake" target="_blank" rel="noreferrer"><img src={mock15} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/GhassenFarjallah/Safe_rl_adaptation_SMBPO_Frozen_Lake" target="_blank" rel="noreferrer"><h2>Adaptation of SMBPO model for safe RL for Frozen Lake environment</h2></a>
+                <p>The selected environment is Frozen Lake from the Toy Text environments, where the agent must reach the goal while navigating slippery tiles and avoiding holes. We extend the default 4×4 setting to a 15×15 grid and convert holes into non-absorbing obstacle states to better study safe reinforcement learning and obstacle avoidance. This project also adapts SMBPO for discrete state spaces by replacing the original continuous SAC design with two Q-networks. We reuse key components from Safe-MBPO and MBPO, including imagined rollouts, dynamic ensembles, and rollout scheduling, implemented using Gym and Gym Toy Text for both safe and standard MBPO evaluation.</p>
+            </div>          
         </div>
     </div>
     );

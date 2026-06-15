@@ -16,50 +16,66 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="Jan 2026 - Apr 2026"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Software Developer Intern @GoTo</h3>
+            <h4 className="vertical-timeline-element-subtitle">Québec, QC, Canada</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              React/TypeScript, Golang, GraphQL, PostgreSQL, Kubernetes, CI/CD (ArgoCD, Jenkins)
             </p>
           </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="Feb 2025 - May 2025"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Prompt Engineer @Upwork</h3>
+            <h4 className="vertical-timeline-element-subtitle">Remote</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+              Prompt Engineering, LLM Workflows, Langflow, Python
             </p>
           </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            date="Jun 2024 - Jul 2024"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Developer Intern - Touristic Circuit Recommendation system @Djagora Foundation</h3>
+            <h4 className="vertical-timeline-element-subtitle">Sfax, Tunisia</h4>
             <p>
-              Full-stack Development, API Development, User Experience
+              Django, Angular, Recommendation Systems, REST APIs
             </p>
           </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2020"
+            date="Jul 2023"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h3 className="vertical-timeline-element-title">Deep Learning Research Intern @Smart IT Partner</h3>
+            <h4 className="vertical-timeline-element-subtitle">Ariana, Tunisia</h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+              Deep Learning, CNN, TensorFlow, Computer Vision
+            </p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="Jun 2023 - Jul 2023"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Computer Vision & Backend Developer Intern @Djagora Foundation</h3>
+            <h4 className="vertical-timeline-element-subtitle">Sfax, Tunisia</h4>
+            <p>
+              Computer Vision, Deep Learning, Django, Emotion Detection
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>

@@ -83,3 +83,33 @@ You can choose your preferred service (e.g., [Netlify](https://www.netlify.com/)
 4. **Access Your Deployed App**
 
     After successfully deploying, you can access your app at `https://yourusername.github.io/your-repo-name`.
+
+    ## Contact / EmailJS (optional)
+
+    If you want the contact form to send email through [EmailJS](https://www.emailjs.com/), follow these steps:
+
+    1. Create an account at EmailJS and add an email service (e.g., Gmail, SMTP).
+    2. Create an Email Template that accepts `name`, `email`, and `message` template parameters.
+    3. Copy the **Service ID**, **Template ID**, and **Public Key** from EmailJS.
+    4. Create a local env file by copying `.env.example` to `.env.local` and fill in the values:
+
+    ```env
+    # .env.local (do not commit)
+    REACT_APP_EMAILJS_SERVICE_ID=service_xxx
+    REACT_APP_EMAILJS_TEMPLATE_ID=template_xxx
+    REACT_APP_EMAILJS_PUBLIC_KEY=public_xxx
+    ```
+
+    5. Install the EmailJS browser package:
+
+    ```bash
+    npm install @emailjs/browser
+    ```
+
+    6. Restart the dev server if it's running. The `Contact` component will read the env vars and call EmailJS.
+
+    Notes:
+    - Keep `.env.local` out of version control (this repo already ignores `.env` files).
+    - Client-side public keys are required by EmailJS; do not store private API secrets in the frontend.
+    - For production usage, consider sending email from a server-side endpoint to avoid exposing service details.
+
