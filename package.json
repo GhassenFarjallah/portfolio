@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "homepage": "https://yourusername.github.io/your-repo-name",
+  "homepage": "https://GhassenFarjallah.github.io/portfolio",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@emotion/react": "^11.11.4",
